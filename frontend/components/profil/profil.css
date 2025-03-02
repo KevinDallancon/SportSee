@@ -1,0 +1,18 @@
+h1 {
+  font-weight: 500;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.firstName {
+  font-weight: 500;
+  font-size: 48px;
+  color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}

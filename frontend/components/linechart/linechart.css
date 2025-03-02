@@ -1,0 +1,32 @@
+.linechart-container {
+  background-color: #ff0000;
+  border-radius: 5px;
+  height: 100%;
+  width: 30%;
+}
+
+.linechart-title {
+position: absolute;
+margin: 20px 10px 0px 10px;
+z-index: 100;
+}
+
+.linechart-container h2 {
+  color: #ffffff;
+  font-size: 15px;
+  opacity: 0.5;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  width: 147px;
+}
+
+.customTooltip {
+  background: white;
+  color: black;
+}
+.tooltipText {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
