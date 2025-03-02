@@ -21,6 +21,7 @@ const Radarchat = ({id} ) => {
     fetchData();
   }, [id]);
 
+  
   if (performanceData.length === 0) return <div>Aucune performance trouvée pour cet utilisateur</div>;
 
   return (
