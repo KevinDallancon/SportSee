@@ -33,7 +33,6 @@ export const getUserInfo = async (userId) => {
     const userModel = new UserModel(userData);
     
     // Ajout du score calculé à l'instance UserModel
-    // Supposons que UserModel a une méthode pour définir le score ou que nous pouvons accéder directement à la propriété
     userModel.score = scoreData.score;
     
     return userModel;
