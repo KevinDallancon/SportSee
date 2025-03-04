@@ -1,6 +1,5 @@
 # ![Logo SportSee](./frontend/assets/logo.png)
 
-SportSee est une application web permettant de suivre et analyser vos activités sportives. Ce README fournit un aperçu du projet, des instructions d'installation et des directives d'utilisation.
 
 ## Table des matières
 1. [Aperçu du projet](#aperçu-du-projet)
@@ -10,7 +9,11 @@ SportSee est une application web permettant de suivre et analyser vos activités
 5. [Utilisation](#utilisation)
 
 ## Aperçu du projet
-SportSee est conçu pour aider les utilisateurs à suivre leurs progrès en matière de fitness en fournissant des analyses détaillées et des visualisations de leurs activités sportives.
+SportSee, une startup dédiée au coaching sportif.
+
+En pleine croissance, l’entreprise va aujourd’hui lancer une nouvelle version de la page profil de l’utilisateur.
+
+Cette page va notamment permettre à l’utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.
 
 ## Fonctionnalités
 - Gestion des profils utilisateurs
@@ -19,9 +22,8 @@ SportSee est conçu pour aider les utilisateurs à suivre leurs progrès en mati
 - Définition d'objectifs et suivi des progrès
 
 ## Technologies
-- SASS
+- Node.js
 - React / Vite
-- React Router
 - Recharts
 
 ## Installation
@@ -50,14 +52,16 @@ Pour configurer le projet localement, suivez ces étapes :
 
 ## Utilisation
 ### Démarrer le serveur Frontend
-Pour démarrer le serveur Frontend, exécutez la commande suivante :
+
+
 ```bash
 npm run dev
 ```
-Ouvrez votre navigateur et accédez à http://localhost:5173 pour voir l'application.
+Ouvrez votre navigateur et accédez à `http://localhost:5173` pour voir l'application.
 
 ### Démarrer le serveur Backend
-Pour démarrer le serveur Backend, exécutez :
+
+
 ```bash
 npm run start
 ```
